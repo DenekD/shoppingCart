@@ -30,7 +30,7 @@ function App() {
         <BasketDrawer />
         <Switch>
           <Route exact path="/" component={MainContent} />
-          {/* <Redirect from="/shoppingCart" to="/" /> */}
+          <Redirect from="/shoppingCart" to="/" />
           <Route path="/checkout" component={Checkout} />
           <Route path="/signIn" component={SignIn} />
           <Route path="/categories/:cat" component={ProductsCategory} />
