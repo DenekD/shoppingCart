@@ -1,24 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MainContent from './Components/MainContent/MainContent';
+import Checkout from './Components/Checkout/Checkout';
+import ProductsCategory from './Components/ProductsCategory/ProductsCategory';
+import SignIn from './Components/SignIn/SignIn';
+import Header from './Components/Header/Header';
+import Drawer from './Components/Drawer/Drawer';
+import BasketDrawer from './Components/BasketDrawer/BasketDrawer';
+import Footer from './Components/Footer/Footer';
+import { Switch, Route, Redirect } from 'react-router-dom';
+
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  palette: {
+    // type: 'dark',
+  },
+  typography: {
+    fontFamily: 'Poppins',
+  },
+});
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme}>
+        <Header />
+        <Drawer />
+        <BasketDrawer />
+        <Switch>
+          <Route exact path="/" component={MainContent} />
+          {/* <Redirect from="/shoppingCart" to="/" /> */}
+          <Route path="/checkout" component={Checkout} />
+          <Route path="/signIn" component={SignIn} />
+          <Route path="/categories/:cat" component={ProductsCategory} />
+        </Switch>
+
+        <Footer />
+      </ThemeProvider>
     </div>
   );
 }
