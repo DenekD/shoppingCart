@@ -25,11 +25,11 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: 25,
   },
   btn: {
-    width: 130,
+    width: 150,
     marginTop: 10,
     marginRight: 10,
     marginBottom: 10,
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('sm')]: {
       marginRight: 0,
       marginBottom: 0,
       fontSize: 10,
