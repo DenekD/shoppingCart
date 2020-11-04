@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "468132daebefb7208ca35b923a82b4d1",
+    "revision": "e103e83937cd68c1d4fb2f2d935a226a",
     "url": "/shoppingCart/index.html"
   },
   {
-    "revision": "6f21c9744160dd5b2734",
+    "revision": "405b2788069b38ec5498",
     "url": "/shoppingCart/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "f4ef8c78e58870064b2b",
+    "revision": "11712e41c4f5332c2084",
     "url": "/shoppingCart/static/css/main.c6934c35.chunk.css"
   },
   {
-    "revision": "6f21c9744160dd5b2734",
-    "url": "/shoppingCart/static/js/2.3b342f2d.chunk.js"
+    "revision": "405b2788069b38ec5498",
+    "url": "/shoppingCart/static/js/2.8cce4935.chunk.js"
   },
   {
     "revision": "1a3cc71403f332d098a2b9cdd7c4c36d",
-    "url": "/shoppingCart/static/js/2.3b342f2d.chunk.js.LICENSE.txt"
+    "url": "/shoppingCart/static/js/2.8cce4935.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4ef8c78e58870064b2b",
-    "url": "/shoppingCart/static/js/main.23519604.chunk.js"
+    "revision": "11712e41c4f5332c2084",
+    "url": "/shoppingCart/static/js/main.9c248d10.chunk.js"
   },
   {
     "revision": "6808dfc10bbe949aef3e",
@@ -52,35 +52,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shoppingCart/static/media/6.27f57718.jpg"
   },
   {
-    "revision": "814191b6cb787570cfe26e4149a2ff75",
-    "url": "/shoppingCart/static/media/books.814191b6.jpg"
+    "revision": "ec883f7b8242ad876c308d08a556fb69",
+    "url": "/shoppingCart/static/media/home.ec883f7b.jpg"
   },
   {
-    "revision": "e3c85e2f878873aae43f655275e3830b",
-    "url": "/shoppingCart/static/media/computers.e3c85e2f.jpg"
-  },
-  {
-    "revision": "84ef1c555e27f563d71c5e2968adce4a",
-    "url": "/shoppingCart/static/media/electronics.84ef1c55.jpg"
-  },
-  {
-    "revision": "5a866c6c00ab7459e7fb86e9ec91d8a0",
-    "url": "/shoppingCart/static/media/home.5a866c6c.jpg"
-  },
-  {
-    "revision": "c6f44e53ece4390e2ae3a3e1ed4731d1",
-    "url": "/shoppingCart/static/media/kitchen.c6f44e53.jpg"
+    "revision": "c0b4fe4df6ea65afa8f30c839219cce6",
+    "url": "/shoppingCart/static/media/kitchen.c0b4fe4d.jpg"
   },
   {
     "revision": "5096057d7934752703b67a3e0f3001c8",
     "url": "/shoppingCart/static/media/logo.5096057d.svg"
   },
   {
-    "revision": "f3af886d83fc6fd516bcf3887c284c0d",
-    "url": "/shoppingCart/static/media/movies.f3af886d.jpg"
-  },
-  {
-    "revision": "870d72c705381f098be3921e828e89a0",
-    "url": "/shoppingCart/static/media/sports.870d72c7.jpg"
+    "revision": "d64399659a6cca5d7df3405b034f7715",
+    "url": "/shoppingCart/static/media/movies.d6439965.jpg"
   }
 ]);
